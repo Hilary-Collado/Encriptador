@@ -1,0 +1,110 @@
+    *{
+        font-family: 'Noto Sans Mono', monospace;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 140%;
+    }
+
+    header{
+        position: absolute;
+    }
+
+    body{
+        background-color: #eddfb3 ;
+    }
+
+    main{
+        display: flex;
+        margin-left: 70px;
+        margin-bottom: 50px;
+    }
+
+    .input-texto{
+        position: relative;
+        margin-top: 100px;
+        background-color: #eddfb3 ;
+        border: none;
+    }
+
+    .mensaje {
+        position: relative;
+        margin-top: 20px;
+        margin-left: 90px;
+        border-radius: 32px;
+        background-color: #eddfb3;
+        background-image: url("imagenes/muñeco.png");
+        background-repeat: no-repeat;
+        background-position: 18px;
+        background-size: 300px;
+        box-shadow: 0px 10px 32px -15px rgba(0, 0, 0, 8);
+        height: 550px;
+        border: none;
+    }
+
+
+    .copiar {
+        width: 300px;
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 119px;
+        background-color: #ff7700;
+        color: #b3e8e5;
+        border-radius: 15px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .copiar:hover{
+        background: #e04d01;
+        color: white;   
+    }
+    .botones {
+        display: flex;  
+        flex-direction: row;
+        margin-top: 20px;
+    }
+
+    .encriptar {
+        width: 328px;
+        height: 67px;
+
+        background-color: #ff7700;
+        color:white;    
+        border-radius: 24px;
+        border: none;
+
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+
+        cursor: pointer;
+
+    }
+
+    .encriptar:hover{
+        background: #e04d01;
+    }
+
+    .desencriptar {
+        width: 328px;
+        height: 67px;
+        background-color: #eddfb3;
+        color: #f70;    
+        border-radius: 24px;
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        margin-left: 30px;
+        border: 2px solid #f70;
+        cursor: pointer;
+    }
+
+    .desencriptar:hover{
+        background: #e04d01;
+        color: white;
+    }
+
+    .informacion {
+        font-size: 15px;
+        font-weight: bold;
+    }
